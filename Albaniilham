@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS Box 3</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+
+        .row1 {
+            display: flex;
+            gap: 10px;
+        }
+
+        .row1-red {
+            background-color: pink;
+            height: 100px;
+            flex-grow: 1;
+
+        }
+
+        .row1-purple {
+            background-color: green;
+            height: 100px;
+            flex-grow: 4;
+
+        }
+
+        
+        .row2 {
+            display: flex;
+            gap: 10px;
+        }
+
+        .row2-yellow {
+            background-color: brown;
+            height: 455px;
+            flex-grow: 1;
+
+        }
+
+        .row2-blue {
+            background-color: red;
+            height: 455px;
+            flex-grow: 3;
+        }
+
+        
+        .row2-green {
+            background-color: brown;
+            height: 455px;
+            flex-grow: 1;
+        }
+
+        .row3{
+            background-color: grey;
+            height: 65px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <div class="row1-red"></div>
+            <div class="row1-purple"></div>
+        </div>
+        <div class="row2">
+            <div class="row2-yellow"></div>
+            <div class="row2-blue"></div>
+            <div class="row2-green"></div>
+        </div>
+        <div class="row3"></div>
+    </div>
+</body>
+</html>
